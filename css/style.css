@@ -60,7 +60,7 @@ body {
       border-bottom: 1px solid #7d92a5;
       border-radius: 4px;
       background: linear-gradient(#206988, #0c3256);
-      box-shadow: 1.5px 2.6px 3px 0px rgb( 150, 150, 150 )
+      box-shadow: 1.5px 2.6px 3px 0 rgb( 150, 150, 150 )
         }
     .login .fa {
         margin-left: 6px;
@@ -115,7 +115,7 @@ body {
         align-items: center;;
         border: 1px solid #bdc4c7;
         border-radius: 10px;
-        box-shadow: 0px 1px 5px 0 #bcc3c6;
+        box-shadow: 0 1px 5px 0 #bcc3c6;
         position: relative;
         left: 33px;
         top: 1px;
@@ -145,7 +145,7 @@ body {
         border-width: 1px;
         border-color: rgb( 13, 22, 66 );
         border-radius: 4px;
-        box-shadow: 1.5px 2.6px 5px 0px rgb( 0, 0, 0 );
+        box-shadow: 1.5px 2.6px 5px 0 rgb( 0, 0, 0 );
         }
     .main_menu {
         margin-left: 145px;
@@ -274,7 +274,7 @@ body {
         border-width: 1px;
         border-color: #79878d;
         border-radius: 11px;
-        box-shadow: 1.5px 2.5px 3px 0px #969696;
+        box-shadow: 1.5px 2.5px 3px 0 #969696;
         }
     main .main_content .upper:before {
         position: relative;
@@ -317,20 +317,19 @@ body {
     }
       /*Центральный Блок*/
     .main_content .tovar {
-        padding-left: 34px;
-        padding-right: 39px;
-        width: 527px;
+        width: 503px;
+        padding: 0 14px 18px 10px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;;
         border-radius: 3px;
         background-image: linear-gradient(0deg, #234b5d 0%, #768d97 0%, #c9cfd1 100%)
         }
     .main_content .tovar section {
         position: relative;
-        right: 1px;
+        top: 15px;
         text-align: center;
-        margin: 15px 0px 7px 0;
+        margin-bottom: 22px;
         }
     .tovar section figcaption {
         font-size: 14.59px;
@@ -367,6 +366,84 @@ body {
         margin: 6px 4px 0 0;
         }
     /*Левый Бар*/
-    .main_content .left_bar {
-        width: 190px;
+  .left_bar .brands {
+        height: 305px;
+        margin-left: 10px;
+        }
+    .left_bar .brands h2 {
+        padding-left: 7px;
+        letter-spacing: 1px;
+        width: 172px;
+        }
+    .left_bar .brands h3 {
+        width: 128px;
+        line-height: 28px;
+        letter-spacing: 0.3px;
+        }
+    .left_bar .brands section {
+        margin-left: 13px;
+        margin-top: 14px;
+        height: 218px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+    .brands label > input {
+        height: 10px;
+        margin-left: 8px;
+        margin-right: 15px;
+        }
+    .brands input[type="submit"] {
+        padding-left: 6px;
+        width: 81px;
+        height: 26px;
+        position: relative;
+        top: 17px;
+        left: 24px;
+        font-size: 11px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: #fff;
+        border: transparent;
+        border-radius: 15px;
+        background-image: linear-gradient( 180deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
+        box-shadow: 1px 2px 3px 0px #9b9b9b;
+        }
+    main .brend_logo {
+        height: 52px;
+        position: relative;
+        top: 37px;
+        text-align: center;
+        }
+    footer {
+        margin-top: 37px;
+        height: 100px;
+        border: solid 1px #242a3c;
+        background: #213a4d;
+        }
+    footer ul {
+        margin-top: 11px;
+        margin-left: 296px;
+        width: 308px;
+        display: flex;
+        justify-content: space-between;
+        }
+    footer ul li a {
+        padding-left: 12px;
+        letter-spacing: 0.9px;
+        color: #bec6c9;
+        border-left: solid 1px #bec6c9;
+        display: flex;
+        }
+    footer ul li .first {
+        border:transparent;
+        }
+    footer ul li a:hover {
+        color: #52abcb;
+        }
+    footer .made {
+        margin-top: 15px;
+        font-size: 10px;
+        text-align: center;
+        color: #7f4740;
         }
