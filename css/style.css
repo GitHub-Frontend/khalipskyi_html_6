@@ -1,10 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #ffffff;
-    font-family: Arial;
-    font-size: 12px;
-    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: Arial;
+      font-size: 12px;
+      }
 
     #conteiner_wrapper {
         margin: 0 auto;
@@ -28,7 +28,6 @@ body {
         display: flex;
         align-items: center;
         }
-
     .contact {
         width: 300px;
         display: flex;
@@ -47,20 +46,19 @@ body {
         margin-left: 9px;
         letter-spacing: 0.45px;
         }
-
     .login {
-      height: 25px;
-      width: 494px;
-      display: flex;
-      position: relative;
-      left: 15px;
-      top: 1px;
-      align-items: center;
-      border-top: 1px solid #a6c3cf;
-      border-bottom: 1px solid #7d92a5;
-      border-radius: 4px;
-      background: linear-gradient(#206988, #0c3256);
-      box-shadow: 1.5px 2.6px 3px 0 rgb( 150, 150, 150 )
+        height: 25px;
+        width: 494px;
+        display: flex;
+        position: relative;
+        left: 15px;
+        top: 1px;
+        align-items: center;
+        border-top: 1px solid #a6c3cf;
+        border-bottom: 1px solid #7d92a5;
+        border-radius: 4px;
+        background: linear-gradient(#206988, #0c3256);
+        box-shadow: 1.5px 2.6px 3px 0 rgb( 150, 150, 150 )
         }
     .login .fa {
         margin-left: 6px;
@@ -83,7 +81,7 @@ body {
         font-size: 10.91px;
         }
     .login input[type="text"] {
-        padding-left: 2px;
+        padding-left: 3px;
         }
     .login a {
         margin-left: 4px;
@@ -417,6 +415,7 @@ body {
           line-height: 10px;
           }
     .brands input[type="submit"] {
+        display: block;
         padding-left: 6px;
         width: 81px;
         height: 26px;
